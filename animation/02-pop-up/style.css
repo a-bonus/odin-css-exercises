@@ -32,13 +32,14 @@ button {
   border: 1px solid black;
   border-radius: 10px;
   position: fixed;
-  top: 50%;
+  top: -100%;
   left: 50%;
   transform-origin: center;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   pointer-events: none;
   opacity: 0%;
   text-align: center;
+  transition: top 0.5s ease-in-out, transform 0.5s ease-in-out; /* Add transition effect */
 }
 
 .popup-modal p {
@@ -54,6 +55,8 @@ button {
 }
 
 .popup-modal.show {
+  top: 50%; /* Bring into view */
+  transform: translate(-50%, -50%); /* Adjust this to match the new top value */
   opacity: 100%;
   pointer-events: all;
 }

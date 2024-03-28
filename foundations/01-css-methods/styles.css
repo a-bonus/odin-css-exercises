@@ -1,0 +1,15 @@
+/* style.css */
+
+/* CSS code goes here */
+/* Style this <body>
+        <div>Style me via the external method!</div> */
+        /* `div`: a red background, white text, a font size of 32px, center aligned, and bold */
+div { 
+    background-color: red;
+    color: white; /* Set text color to white */
+    font-size: 32px; /* Set font size to 32px */
+    text-align: center; /* Center align text */
+    font-weight: bold; /* Set font weight to bold */
+    margin: 0;
+    padding: 0;
+}

@@ -29,3 +29,7 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
 - You may need to add more selectors to your CSS file. The first few exercises have almost everything already done for you, but as you progress, you'll find that you need to add more and more selectors to get the correct result.
 
 ## Important CSS Notes 
+- External method is creating a css stylesheet in the same directory
+- Internal method is creating in the head of the html
+- Inline method is styling within the html element wrapped in quotes 
+- Each element ends with a semi colon 

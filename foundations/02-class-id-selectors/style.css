@@ -1,0 +1,41 @@
+/* q: how to reference a class attribute */
+
+/* .class-name */
+/* .class-name { property: value; } */
+/* .class-name { property: value; property: value; } */
+
+.class {
+    background-color: rgb(207, 43, 111);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* q: how to reference an ID attribute */
+
+/* #id-name */
+/* #id-name { property: value; } */
+
+/* q: how to adjust font color */
+/* #id-name { color: rgb(207, 43, 111); } */
+#id {
+    color : rgb(43, 133, 207);
+    font-size: 36px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.classthree {
+    background-color: rgb(207, 43, 111);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+#idfour {
+    background-color : rgb(49, 195, 41);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+/* q: how to link this css to index.html */
+/* <link rel="stylesheet" type="text/css" href="style.css"> */
+

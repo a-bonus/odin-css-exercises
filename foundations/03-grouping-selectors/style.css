@@ -1,0 +1,20 @@
+/* q: what's the best way to style two different classes with the same style in css? */
+/* a:  */
+/* .class1, .class2 { */
+
+.class1, .class2 {
+    font-family: Helvetica, Times, sans-serif;
+    font-size: 28px;
+}
+
+.class1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+}   
+
+.class2 {
+    background-color: yellow;
+    color: black;
+    font-weight: normal;
+}

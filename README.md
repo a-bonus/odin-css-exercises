@@ -33,3 +33,5 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
 - Internal method is creating in the head of the html
 - Inline method is styling within the html element wrapped in quotes 
 - Each element ends with a semi colon 
+- Each element is wrapped in curly braces
+- 

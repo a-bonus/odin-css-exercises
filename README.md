@@ -34,4 +34,4 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
 - Inline method is styling within the html element wrapped in quotes 
 - Each element ends with a semi colon 
 - Each element is wrapped in curly braces
-- 
+- Each element is a key value pair, which means it has a property and a value, for example: color: red;

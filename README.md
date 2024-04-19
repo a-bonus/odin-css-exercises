@@ -37,3 +37,4 @@ If you have suggestions to improve an exercise, ideas for a new exercise, or not
 - Each element is a key value pair, which means it has a property and a value, for example: color: red;
 - The property is the attribute of the element, for example: color, font-size, margin, padding, etc. 
 - The value is the value of the property, for example: red, 16px, 8px, etc.
+- The property and value are separated by a colon, for example: color: red;
